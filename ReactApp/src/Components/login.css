@@ -1,0 +1,110 @@
+.login_div{
+    width: 100%;
+}
+.goto_signin{
+    width: 95%;
+    padding: 1.5rem;
+    margin: auto;
+    text-align: end;
+    color: black;
+
+}
+
+.goto_signin :first-child{
+
+    font-size: 0.9rem;
+}
+
+.goto_signin :first-child:hover{
+    color:rgb(139, 133, 133);
+
+}
+.goto_signin :last-child{
+
+    font: bold;
+    margin-left: 1rem;
+    padding: 0.4rem 0.8rem;
+    background-color: whitesmoke;
+}
+
+.goto_signin :last-child:hover{
+    background-color: antiquewhite;
+   
+}
+
+.form_div{
+    width: 40%;
+    height: 100vh;
+    margin: auto;
+}
+.form_top{
+    margin-top: 0.5rem;
+    border: 1px solid black;
+
+    border-radius: 280px 280px 0 0;
+
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    width: 100%;
+    height: 40%;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form_top_1{
+    background-color: rgb(227, 243, 243);
+
+    border-radius: 280px 280px 0 0;
+height: 100%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+
+}
+.form_top_1>h3,.form_top_1>p{
+    text-align: center;
+}
+.form_top_1>img{
+    height: 70px;
+    width: 180px;
+    
+}
+form{
+    padding: 1.5rem;
+    box-shadow: 1px 1px 5px 0;
+}
+
+form>div{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.form_div input{
+
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(168, 163, 163);
+    padding: 0.5rem 0.1rem;
+    font-weight: 550;
+    font-size: 1.050rem;
+
+}
+
+.form_div input:focus{
+    border-bottom: 2px solid black;
+}
+
+.name_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name_div>div>input{
+    width: 110%;
+}
