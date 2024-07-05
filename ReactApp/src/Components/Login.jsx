@@ -9,7 +9,7 @@ const Login = () => {
         <div className="login_div">
 
             <div className="goto_signin">
-                <Link to="/login">Already have an account</Link><Link to='/signup'>Signup</Link>
+                <Link to="/">Already have an account</Link><Link to='/'>Signup</Link>
             </div>
             <div className="form_div">
                 <div className="form_top">
